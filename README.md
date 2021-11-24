@@ -1,5 +1,5 @@
 # jarvis
-Jarvis is justt like what u think it is 
+Jarvis is just like what u think it is 
 
 IRON MAN'S PERSONAL ASSISTANT
 
