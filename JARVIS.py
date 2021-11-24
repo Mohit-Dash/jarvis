@@ -1,4 +1,13 @@
 import pyttsx3
+import speech_recognition as sr
+import wikipedia
+from ecapture import ecapture as ec
+import os
+import time
+import subprocess
+import _json
+import requests
+import wolframalpha
 import datetime
 
 engine=pyttsx3.init('sapi5')
