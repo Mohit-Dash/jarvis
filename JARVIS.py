@@ -96,3 +96,7 @@ if __name__ == "__main__":
         elif 'open code' in query:
             codePath = r"C:\Users\MOHIT DASH\OneDrive\Desktop\Visual Studio Code.lnk"
             os.startfile(codePath)
+        
+
+        elif 'show me something useless' in query:
+            webbrowser.open("theuselessweb.com")
