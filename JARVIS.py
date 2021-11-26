@@ -98,5 +98,4 @@ if __name__ == "__main__":
             os.startfile(codePath)
         
 
-        elif 'show me something useless' in query:
-            webbrowser.open("theuselessweb.com")
+        
