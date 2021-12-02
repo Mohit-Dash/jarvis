@@ -1,3 +1,5 @@
+#update the paths according to your system in the open commands
+
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speechRecognition
 import datetime
