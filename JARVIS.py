@@ -1,3 +1,4 @@
+#Credits to Mohit Dash and Pradyumn Reddy
 #update the paths according to your system in the open commands
 
 import pyttsx3 #pip install pyttsx3
