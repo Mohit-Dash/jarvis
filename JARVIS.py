@@ -91,6 +91,34 @@ if __name__ == "__main__":
         elif 'open code' in query:
             codePath = r"C:\Users\MOHIT DASH\OneDrive\Desktop\Visual Studio Code.lnk"
             os.startfile(codePath)
+        elif 'open word' in query:
+            wordPath=r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Word.lnk"
+            os.startfile(wordPath)
+
+        elif 'open excel' in query:
+            excelPath=r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Excel.lnk"
+            os.startfile(excelPath)
+
+        elif 'open ppt' in query:
+            pptPath=r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PowerPoint.lnk"
+            os.startfile(pptPath)
+
+        elif 'hello' in query:
+            speak("Hello, I am happy meeting you")
         
 
+        elif 'thanks' in query:
+            speak("It is a pleasure helping you")
+
+        elif 'open github' in query:
+            webbrowser.open("www.github.com")
+           
+        elif 'deactivate' in query:
+                speak ("Deactivating")
+                print("Deactivating...")
+                quit()
         
+        elif 'open maps' or 'open google maps' in query:
+            speak("opening maps")
+            print("Opening maps...")
+            webbrowser.open(r'www.google.com/maps')
