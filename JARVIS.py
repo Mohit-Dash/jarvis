@@ -136,4 +136,5 @@ if __name__ == "__main__":
         else:
             speak("What you are saying is not in my command list")
             print("What you are saying is not in my command list")
-            quit()
+             speak("Anything else I can help you?")
+             speak("Anything else I can help you?")
