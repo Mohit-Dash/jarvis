@@ -100,7 +100,7 @@ if __name__ == "__main__":
             excelPath=r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Excel.lnk"
             os.startfile(excelPath)
 
-        elif 'open ppt' in query:
+        elif 'open ppt' or 'open powerpoint' in query:
             pptPath=r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PowerPoint.lnk"
             os.startfile(pptPath)
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
         elif 'open github' in query:
             webbrowser.open("www.github.com")
            
-        elif 'deactivate' in query:
+        elif 'deactivate' or 'shut down' in query:
                 speak ("Deactivating")
                 print("Deactivating...")
                 quit()
@@ -123,3 +123,17 @@ if __name__ == "__main__":
             speak("opening maps")
             print("Opening maps...")
             webbrowser.open(r'www.google.com/maps')
+
+        elif 'jarvis who are you' or 'who are you' in query:
+            speak("I am iron man's personal assistant!")
+            print("I am iron man's personal assistant!!")
+
+        elif 'open devdocs' in query:
+            speak("Opening devdocs")
+            print("Opening devdocs.io...")
+            webbrowser.open("www.devdocs.io")
+
+        else:
+            speak("What you are saying is not in my command list")
+            print("What you are saying is not in my command list")
+            quit()
