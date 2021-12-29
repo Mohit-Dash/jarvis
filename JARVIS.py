@@ -119,11 +119,6 @@ if __name__ == "__main__":
                 print("Deactivating...")
                 quit()
         
-        elif 'open maps' or 'open google maps' in query:
-            speak("opening maps")
-            print("Opening maps...")
-            webbrowser.open(r'www.google.com/maps')
-
         elif 'jarvis who are you' or 'who are you' in query:
             speak("I am iron man's personal assistant!")
             print("I am iron man's personal assistant!!")
